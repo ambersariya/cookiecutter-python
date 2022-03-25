@@ -1,0 +1,12 @@
+{
+    "project_name": "some project name",
+    "project_short_description": "A project to",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "package_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "python_version": "3.9.7",
+    "package_manager": "poetry",
+    "version": "0.1.0",
+    "full_name": "Firstname Lastname",
+    "email": "username@example.org",
+    "license": ""
+}

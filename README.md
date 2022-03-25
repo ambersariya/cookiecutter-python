@@ -1,4 +1,4 @@
-# Python Cookie Cutter
+# 🍪 Python Cookie Cutter
 
 ## Install
 
@@ -30,12 +30,3 @@ license []:
 ## Push Project
 
 When the project scaffolding has been created, please ensure to create a new repo/project on Gitlab. Then grab git repository remote details and `git push`
-
-```bash
-🍪 $ cd example_proj
-🍪 $ git add .
-
-# Don't forget to add your git remote
-
-🍪 $ git commit -am "initial commit" && git push
-```

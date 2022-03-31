@@ -1,7 +1,7 @@
 .PHONY: all clean lint type test test-cov
 
 CMD := {{ cookiecutter.package_manager }} run
-PYMODULE := {{ cookiecutter.package_name }}
+PYMODULE := {{ cookiecutter.package_slug }}
 EXTRACODE :=
 
 all: mypy-install-types type lint format-check

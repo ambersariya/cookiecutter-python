@@ -1,2 +1,1 @@
-def handler(event, context):
-    pass
+import {{cookiecutter.project_slug}}

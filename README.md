@@ -4,7 +4,7 @@ A configurable python project template to help get started. It doesn't have any 
 
 The template only contains the following dependencies.
 
-```
+```toml
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
 

@@ -1,6 +1,18 @@
 # 🍪 Python Cookie Cutter
 
-A configurable python project template to help get started. 
+A configurable python project template to help get started. It doesn't have any framework and is left open for you to add libraries.
+
+The template only contains the following dependencies.
+
+```
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.python_version}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+flake8 = "^3.8.4"
+```
 
 ## Install
 
@@ -27,6 +39,11 @@ email [username@example.org]: firstname lastname
 license []:
 
 🍪 $
+```
+## Test
+
+```bash
+🍪 $ make all
 ```
 
 ## Push Project

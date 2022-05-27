@@ -57,6 +57,12 @@ Change into your newly created project directory and simply run the following to
 🍪 $ make
 ```
 
-## Push Project
+## Check-in Project
 
-When the project scaffolding has been created, please ensure to create a new repo/project. Then grab git repository remote details and `git push`
+When you've customised your project scaffolding, it is ready to be checked into a git repository.
+
+```bash
+🍪 $ git init
+🍪 $ git commit -am "feat: first commit"
+🍪 $ git push -u origin main
+```

@@ -1,5 +1,7 @@
 # 🍪 Python Cookie Cutter
 
+A configurable python project template to help get started. 
+
 ## Install
 
 ```bash

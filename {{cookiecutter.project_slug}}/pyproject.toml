@@ -13,6 +13,7 @@ python = "^{{cookiecutter.python_version}}"
 pytest = "^5.2"
 black = "^22.1.0"
 flake8 = "^3.8.4"
+mypy = "^0.960"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

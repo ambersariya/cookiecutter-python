@@ -1,6 +1,6 @@
 # 🍪 Python Cookie Cutter
 
-A configurable python project template to help get started. It doesn't have any framework and is left open for you to add libraries.
+A configurable python project template to help get started. It doesn't have any framework and is left open for you to add libraries. There is no poetry.lock file checked in, the idea is to have the latest set of libraries at that time.
 
 The template only contains the following dependencies.
 

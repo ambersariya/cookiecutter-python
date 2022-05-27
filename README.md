@@ -2,8 +2,6 @@
 
 A configurable python project template to help get started. 
 
-## Features:
-
 - There is no framework at all and is left open for you to add libraries. 
 - There is no poetry.lock file checked in, so you can have latest set of libraries at that time.
 - Uses Makefile and has alot of targets for your day to day workflow

@@ -23,7 +23,7 @@ pip install cookiecutter
 ## Create project
 
 ```bash
-🍪 $ cookiecutter [cookiecutter-python/](https://github.com/ambersariya/cookiecutter-python)
+🍪 $ cookiecutter https://github.com/ambersariya/cookiecutter-python
 
 You've downloaded ~/.cookiecutters/cookiecutter-python before. Is it okay to delete and re-download it? [yes]: no
 Do you want to re-use the existing version? [yes]: yes

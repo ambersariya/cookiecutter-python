@@ -1,6 +1,13 @@
 # 🍪 Python Cookie Cutter
 
-A configurable python project template to help get started. It doesn't have any framework and is left open for you to add libraries. There is no poetry.lock file checked in, the idea is to have the latest set of libraries at that time.
+A configurable python project template to help get started. 
+
+## Features:
+
+- There is no framework at all and is left open for you to add libraries. 
+- There is no poetry.lock file checked in, so you can have latest set of libraries at that time.
+- Uses Makefile and has alot of targets for your day to day workflow
+- Uses .editorconfig
 
 The template only contains the following dependencies.
 
@@ -15,12 +22,6 @@ flake8 = "^3.8.4"
 mypy = "^0.960"
 isort = "^5.10.1"
 ```
-
-The following things are also made use of.
-
-- make
-- editorconfig
-- isort
 
 ## Install
 
@@ -50,8 +51,10 @@ license []:
 ```
 ## Test
 
+Change into your newly created project directory and simply run the following to check if everything installed properly.
+
 ```bash
-🍪 $ make all
+🍪 $ make
 ```
 
 ## Push Project

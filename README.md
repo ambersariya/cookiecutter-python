@@ -25,7 +25,7 @@ pip install cookiecutter
 ```bash
 🍪 $ cookiecutter [cookiecutter-python/](https://github.com/ambersariya/cookiecutter-python)
 
-You've downloaded ~/.cookiecutters/cookiecutter-python-aws-lambda before. Is it okay to delete and re-download it? [yes]: no
+You've downloaded ~/.cookiecutters/cookiecutter-python before. Is it okay to delete and re-download it? [yes]: no
 Do you want to re-use the existing version? [yes]: yes
 project_name [some project name]: example_proj
 project_short_description [A project to]: Captures screenshots of webpages
@@ -48,4 +48,4 @@ license []:
 
 ## Push Project
 
-When the project scaffolding has been created, please ensure to create a new repo/project on Gitlab. Then grab git repository remote details and `git push`
+When the project scaffolding has been created, please ensure to create a new repo/project. Then grab git repository remote details and `git push`

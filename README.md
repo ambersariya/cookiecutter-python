@@ -6,6 +6,7 @@ A configurable python project template to help get started.
 - There is no poetry.lock file checked in, so you can have latest set of libraries at that time.
 - Uses Makefile and has alot of targets for your day to day workflow
 - Uses .editorconfig
+- Preconfigured .gitignore file
 
 The template only contains the following dependencies.
 
@@ -61,6 +62,7 @@ When you've customised your project scaffolding, it is ready to be checked into 
 
 ```bash
 🍪 $ git init
+🍪 $ git add .
 🍪 $ git commit -am "feat: first commit"
 🍪 $ git push -u origin main
 ```

@@ -12,10 +12,15 @@ python = "^{{cookiecutter.python_version}}"
 pytest = "^5.2"
 black = "^22.1.0"
 flake8 = "^3.8.4"
+mypy = "^0.960"
+isort = "^5.10.1"
 ```
+
 The following things are also made use of.
+
 - make
 - editorconfig
+- isort
 
 ## Install
 

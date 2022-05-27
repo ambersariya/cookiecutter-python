@@ -4,13 +4,15 @@ CMD := {{ cookiecutter.package_manager }} run
 PYMODULE := {{ cookiecutter.package_slug }}
 EXTRACODE :=
 
-all: mypy-install-types type lint format-check
+all: poetry-install mypy-install-types type lint format-check
 format: black isort
 format-check: black-check isort-check
 
+poetry-install:
+	poetry install
+
 mypy-install-types:
 	$(CMD) mypy --install-types --non-interactive --follow-imports=skip $(PYMODULE)
-	
 
 lint:
 	$(CMD) flake8 $(PYMODULE) $(EXTRACODE)

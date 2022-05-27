@@ -13,6 +13,9 @@ pytest = "^5.2"
 black = "^22.1.0"
 flake8 = "^3.8.4"
 ```
+The following things are also made use of.
+- make
+- editorconfig
 
 ## Install
 

@@ -23,7 +23,7 @@ pip install cookiecutter
 ## Create project
 
 ```bash
-🍪 $ cookiecutter cookiecutter-python-aws-lambda/
+🍪 $ cookiecutter [cookiecutter-python/](https://github.com/ambersariya/cookiecutter-python)
 
 You've downloaded ~/.cookiecutters/cookiecutter-python-aws-lambda before. Is it okay to delete and re-download it? [yes]: no
 Do you want to re-use the existing version? [yes]: yes
